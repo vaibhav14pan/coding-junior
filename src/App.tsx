@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from './components/Sidebar';
+import CourseOverview from './components/CourseOverview';
+import AddToCart from './components/AddToCart';
+import CourseDetails from './components/CourseDetails';
+import FAQ from './components/FrequentlyAskedQuestions';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex">
+      <Sidebar />
+      <div className="flex-grow p-5">
+        <CourseOverview />
+        <div className="flex mt-6">
+          <CourseDetails />
+          <AddToCart />
+        </div>
+        <FAQ />
+      </div>
     </div>
   );
 }
