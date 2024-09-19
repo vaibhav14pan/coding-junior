@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/coding-junior/static/css/main.ae5dd08a.css",
+    "main.js": "/coding-junior/static/js/main.6f30f7c2.js",
+    "index.html": "/coding-junior/index.html",
+    "main.ae5dd08a.css.map": "/coding-junior/static/css/main.ae5dd08a.css.map",
+    "main.6f30f7c2.js.map": "/coding-junior/static/js/main.6f30f7c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae5dd08a.css",
+    "static/js/main.6f30f7c2.js"
+  ]
+}
